@@ -1,0 +1,17 @@
+{
+    "defaultCommandTimeout": 8000,
+    "pageLoadTimeout": 10000,
+    "reporter": "mochawesome",
+    "env": {
+      "url": "https://dev.goreact.com"
+    },
+    
+    "testFiles": [
+      "**/*.js"
+    ],
+  
+    "retries": {
+        "runMode": 1
+    }
+}
+  

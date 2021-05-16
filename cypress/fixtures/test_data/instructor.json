@@ -1,0 +1,18 @@
+{
+    "ValidCredentials": {
+        "firstName": "Quin Vincent",
+        "lastName": "Sy",
+        "phoneNumber": "09100000000",
+        "password": "Password123!",
+        "confirmPassword": "Password123!"
+    },
+
+    "InvalidCredentials": {
+        "firstName": " ",
+        "lastName": " ",
+        "phoneNumber": "09100000000",
+        "email": " ",
+        "password": "Password123!",
+        "confirmPassword": "Password"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "ValidCredentials": {
+        "firstName": "Russell Austin",
+        "lastName": "Foo",
+        "password": "Password123!",
+        "confirmPassword": "Password123!"
+    },
+
+    "invalidCredentials": {
+        "firstName": " ",
+        "lastName": " ",
+        "email": " ",
+        "password": "Password123!",
+        "confirmPassword": "Password1234!"
+    }
+}
