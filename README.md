@@ -1,2 +1,5 @@
 # GoReact
-sucker
+## test
+```cmd
+npm install
+```
