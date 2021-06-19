@@ -26,29 +26,29 @@ describe("GoReact Test", function () {
         cy.fillInAccountSetup()
     });
 
-    it("Login instructor and create course", function () {
-        cy.assertHomePage()
-        cy.createCourse(this.courseData.courseName)
-        cy.wait(2000)
-        cy.getCourseLink()
-    });
+    // it("Login instructor and create course", function () {
+    //     cy.assertHomePage()
+    //     cy.createCourse(this.courseData.courseName)
+    //     cy.wait(2000)
+    //     cy.getCourseLink()
+    // });
 
-    it("Course confirmation", function () {
-        cy.assertCourseConfirmation()
-        cy.clickContinue()
-    });
+    // it("Course confirmation", function () {
+    //     cy.assertCourseConfirmation()
+    //     cy.clickContinue()
+    // });
 
-    it("Sign-up student using invalid credentials", function () {
-        cy.signUpStudentWithInvalidCredentials(this.studentData.invalidCredentials.firstName, this.studentData.invalidCredentials.lastName, this.studentData.invalidCredentials.email, this.studentData.invalidCredentials.password, this.studentData.invalidCredentials.confirmPassword)
-    });
+    // it("Sign-up student using invalid credentials", function () {
+    //     cy.signUpStudentWithInvalidCredentials(this.studentData.invalidCredentials.firstName, this.studentData.invalidCredentials.lastName, this.studentData.invalidCredentials.email, this.studentData.invalidCredentials.password, this.studentData.invalidCredentials.confirmPassword)
+    // });
 
-    it("Sign-up, login and enroll student to course using valid credentials", function () {
-        cy.signUpStudentWithValidCredentials(this.studentData.ValidCredentials.firstName, this.studentData.ValidCredentials.lastName, this.studentData.ValidCredentials.password, this.studentData.ValidCredentials.confirmPassword)
-        cy.wait(5000)
-        cy.clickClose()
-        cy.agreeToTermsAndContinue()
-        cy.wait(2000)
-        cy.assertCourseName()
-    });
+    // it("Sign-up, login and enroll student to course using valid credentials", function () {
+    //     cy.signUpStudentWithValidCredentials(this.studentData.ValidCredentials.firstName, this.studentData.ValidCredentials.lastName, this.studentData.ValidCredentials.password, this.studentData.ValidCredentials.confirmPassword)
+    //     cy.wait(5000)
+    //     cy.clickClose()
+    //     cy.agreeToTermsAndContinue()
+    //     cy.wait(2000)
+    //     cy.assertCourseName()
+    // });
 
 });
