@@ -1,15 +1,27 @@
-# GoReact
-Prerequisites:
-Make sure that the following are installed on your system:
-VS Code, NodeJS including environment variables.
+# GoReact Final Exam
 
-Steps:
--Clone the project
--Perform 'npm install'
--Open the project in VS Code
--On VS Code's terminal, type 'npx cypress open' to open TestRunner
--Select GoReact.spec.js
+Cypress end-to-end automation framework using Page Object Model (POM) and custom commands to create 
+reusable and maintainable test scripts. Note: The application UI has changed since this project was created, so tests may require updates to run 
+successfully. 
 
-Note:
--To use xpath, enter the command on VS Code's terminal: 'npm install -D cypress-xpath'
--The whole task took me about 10-11 hrs (scripting, demo recoding, uploading to github and providing details on this ReadMe file)
+## Preconditions
+
+Make sure you have installed/setup:
+
+- Node.js including environment variables
+- Git
+- A code editor (VS Code recommended)
+
+## How to Clone
+
+- git clone https://github.com/quinvincentsy/GoReact.git
+- cd GoReact
+
+## Install Dependencies
+
+- npm install
+- To use xpath, enter the command on VS Code terminal: 'npm install -D cypress-xpath'
+
+## Run Test (UI)
+
+- On VS Code terminal, type 'npx cypress open' to open TestRunner then select GoReact.spec.js
