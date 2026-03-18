@@ -19,8 +19,8 @@ Make sure you have installed/setup:
 
 ## Install Dependencies
 
-- npm install
-- To use xpath, enter the command on VS Code terminal: 'npm install -D cypress-xpath'
+- Open VS code terminal, type 'npm install'
+- To use xpath, enter 'npm install -D cypress-xpath'
 
 ## Run Test (UI)
 
